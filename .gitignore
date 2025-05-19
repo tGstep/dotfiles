@@ -1,0 +1,12 @@
+# Ignore all by default
+*
+
+# Allow specific folders and files
+!hypr/
+!waybar/
+
+!hypr/hyprland.conf
+!waybar/config.jsonc
+!waybar/style.css
+
+!.gitignore
