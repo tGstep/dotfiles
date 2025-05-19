@@ -1,0 +1,80 @@
+{
+  "layer": "top",
+  "position": "top",
+  "spacing": 10,
+  "font": "JetBrainsMono Nerd Font 10",
+  "reload_style_on_change": true,
+  
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+  	"tray",
+    "bluetooth",
+    "pulseaudio",
+    "battery",
+    "backlight",
+    "clock"
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "format-icons": {
+      "active": "",
+      "default": ""
+    },
+    "persistent-workspaces": { "*": 5 },
+    "move-to-monitor": true,
+    "show-special": false
+  },
+
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 50
+  },
+
+  "tray": {
+  	
+  },
+  
+  "bluetooth": {
+    "format": "{icon} {status}",
+    "format-icons": {
+      "enabled": "",
+      "disabled": "",
+      "connected": ""
+    },
+    "on-click": "blueman-manager"
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-icons": { "default": ["", "", "", ""] },
+    "on-click": "pavucontrol"
+  },
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "interval": 30,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    }
+  },
+
+  "backlight": {
+  	"format": "{icon} {percent}%",
+    "format-icons": ["", ""],
+	"device": "intel_backlight",
+  	"interval": 1
+  },
+
+  "clock": {
+    "interval": 60,
+    "tooltip": true,
+    "format": "{:%H.%M}",
+    "tooltip-format": "{:%Y-%m-%d}"
+  }
+}

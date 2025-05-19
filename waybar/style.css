@@ -1,0 +1,85 @@
+/* 1. Reset universale */
+* {
+  border: none;
+  border-radius: 0;
+  font-family: JetBrainsMono Nerd Font, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  min-height: 10px;
+}
+
+/* 2. Waybar window */
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #cccccc;
+  transition: background-color 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+/* 3. Workspaces */
+#workspaces button {
+  padding: 0 8px;
+  margin-right: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  color: #888888;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#workspaces button:hover {
+  background-color: rgba(50, 50, 50, 0.5);
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.5));
+  color: #000000;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.35);
+}
+
+/* 4. Window title */
+#window {
+  padding: 0 10px;
+}
+
+/* 5. Bluetooth & Audio */
+#bluetooth, #pulseaudio {
+  padding: 0 6px;
+  margin: 0 2px;
+  background: none;
+  color: #cccccc;
+}
+
+#bluetooth:hover, #pulseaudio:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+#pulseaudio.muted {
+  opacity: 0.5;
+}
+
+/* 6. Battery & Backlight */
+#battery, #backlight {
+  padding: 0 6px;
+  margin: 0 2px;
+  background: none;
+  color: #cccccc;
+}
+
+#battery.charging { color: #ffee58; }
+#battery.warning  { color: #ffb300; }
+#battery.critical { color: #f44336; }
+
+/* 7. Clock */
+#clock {
+  padding: 0 8px;
+  margin-left: 4px;
+  background: none;
+  color: #cccccc;
+}
+
+#clock:hover {
+  background-color: rgba(255,255,255,0.1);
+}
