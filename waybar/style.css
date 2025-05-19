@@ -44,15 +44,15 @@ window#waybar.hidden {
   padding: 0 10px;
 }
 
-/* 5. Bluetooth & Audio */
-#bluetooth, #pulseaudio {
+/* 5. Tray, Bluetooth & Audio */
+#tray, #bluetooth, #pulseaudio {
   padding: 0 6px;
   margin: 0 2px;
   background: none;
   color: #cccccc;
 }
 
-#bluetooth:hover, #pulseaudio:hover {
+#tray:hover, #bluetooth:hover, #pulseaudio:hover {
   background-color: rgba(255,255,255,0.1);
 }
 
@@ -78,8 +78,4 @@ window#waybar.hidden {
   margin-left: 4px;
   background: none;
   color: #cccccc;
-}
-
-#clock:hover {
-  background-color: rgba(255,255,255,0.1);
 }
