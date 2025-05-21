@@ -6,6 +6,7 @@
 !waybar/
 
 !hypr/hyprland.conf
+!hypr/hyprpaper.conf
 !waybar/config.jsonc
 !waybar/style.css
 

@@ -18,10 +18,6 @@
 
   "hyprland/workspaces": {
     "format": "{name}",
-    "format-icons": {
-      "active": "",
-      "default": ""
-    },
     "persistent-workspaces": { "*": 5 },
     "move-to-monitor": true,
     "show-special": false
@@ -48,7 +44,7 @@
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-icons": { "default": ["", "", "", ""] },
+    "format-icons": ["", "", ""],
     "on-click": "pavucontrol"
   },
 
@@ -66,7 +62,7 @@
 
   "backlight": {
   	"format": "{icon} {percent}%",
-    "format-icons": ["", ""],
+    "format-icons": [""],
 	"device": "intel_backlight",
   	"interval": 1
   },
