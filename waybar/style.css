@@ -3,18 +3,18 @@
   border: none;
   border-radius: 0;
   font-family: JetBrainsMono Nerd Font, Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  min-height: 10px;
+  font-size: 11px;
+  min-height: 16px;
 }
 
 /* 2. Waybar window */
-window#waybar {
+#waybar {
   background-color: rgba(0, 0, 0, 0.5);
   color: #cccccc;
   transition: background-color 0.5s;
 }
 
-window#waybar.hidden {
+#waybar.hidden {
   opacity: 0.2;
 }
 
@@ -23,14 +23,13 @@ window#waybar.hidden {
   padding: 0 8px;
   margin-right: 4px;
   background: rgba(0, 0, 0, 0.1);
-  color: #888888;
-  border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.5s ease;
 }
 
 #workspaces button:hover {
-  background-color: rgba(50, 50, 50, 0.5);
-  color: #ffffff;
+  
 }
 
 #workspaces button.active {
@@ -52,7 +51,11 @@ window#waybar.hidden {
   color: #cccccc;
 }
 
-#tray:hover, #bluetooth:hover, #pulseaudio:hover {
+#tray:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+
+#bluetooth:hover, #pulseaudio:hover {
   background-color: rgba(255,255,255,0.1);
 }
 

@@ -20,7 +20,7 @@
     "format": "{name}",
     "persistent-workspaces": { "*": 5 },
     "move-to-monitor": true,
-    "show-special": false
+    "show-special": true
   },
 
   "hyprland/window": {
@@ -29,7 +29,7 @@
   },
 
   "tray": {
-  	
+  	"cursor": true
   },
   
   "bluetooth": {
