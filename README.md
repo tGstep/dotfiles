@@ -1,5 +1,5 @@
 # Dotfiles
-A chill Hyprland configuration focused on comfort and productivity. This setup provides smooth animations, soft aesthetics, and practical keybindings for daily laptop use.
+A chill Hyprland configuration focused on comfort and productivity. This setup provides smooth animations, soft aesthetics, and practical keybindings for daily software dev laptop use.
 
 ## Overview
 
@@ -81,7 +81,7 @@ ln -sf ~/dotfiles/hypr ~/.config/
 ln -sf ~/dotfiles/waybar ~/.config/
 ```
 
-Restart Hyprland with `Super + Escape` or log out and back in.
+Lastly exit Hyprland with `Super + Escape` and re-open it running `start-hyprland`.
 
 ## Configuration Files
 
@@ -127,6 +127,7 @@ Change persistent workspace count:
 - Print key screenshots with grim and slurp
 - Three-finger swipe for workspace switching on touchpad
 - 80% opacity for inactive windows
+- Bind caps lock key to escape for nvim comfort
 
 ## Technical Details
 
