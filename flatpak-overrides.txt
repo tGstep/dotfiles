@@ -1,0 +1,11 @@
+[Context]
+sockets=wayland
+devices=dri
+filesystems=~/.icons:ro;xdg-config/qt6ct:ro;~/.themes:ro;xdg-data/themes:ro;xdg-data/icons:ro
+
+[Environment]
+ELECTRON_OZONE_PLATFORM_HINT=auto
+QT_QPA_PLATFORMTHEME=qt6ct
+
+[Session Bus Policy]
+org.freedesktop.portal.Settings=talk

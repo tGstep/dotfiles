@@ -1,0 +1,14 @@
+# Ignore all by default
+*
+
+# Allow specific folders and files
+!hypr/
+!xdg-desktop-portal/
+!xsettingsd/
+
+
+!hypr/hyprland.conf
+!xdg-desktop-portal/hyprland-portals.conf
+!xsettingsd/xsettingsd.conf
+!flatpak-overrides.txt
+!.gitignore
