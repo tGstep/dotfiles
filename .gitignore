@@ -8,6 +8,8 @@
 
 
 !hypr/hyprland.conf
+!hypr/hyprlock.conf
+!hypr/hypridle.conf
 !xdg-desktop-portal/hyprland-portals.conf
 !xsettingsd/xsettingsd.conf
 !flatpak-overrides.txt
