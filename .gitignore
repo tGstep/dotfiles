@@ -6,6 +6,8 @@
 !xdg-desktop-portal/
 !xsettingsd/
 !uwsm/
+!zsh/
+
 
 !hypr/hyprland.conf
 !hypr/hyprlock.conf
@@ -14,5 +16,7 @@
 !xsettingsd/xsettingsd.conf
 !uwsm/env
 !uwsm/env-hyprland
+!zsh/.zshrc
+!zsh/.zimrc
 !flatpak-overrides.txt
 !.gitignore

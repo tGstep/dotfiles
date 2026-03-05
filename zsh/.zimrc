@@ -1,0 +1,24 @@
+# BASICS
+zmodule environment
+zmodule git
+zmodule input
+zmodule termtitle
+zmodule utility
+
+
+# PROMPT
+zmodule eriner        
+zmodule prompt-pwd    
+zmodule git-info      
+zmodule duration-info 
+
+
+# COMPLETION
+zmodule zsh-users/zsh-completions --fpath src
+zmodule completion
+
+
+# UTILS
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+zmodule zsh-users/zsh-autosuggestions
