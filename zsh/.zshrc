@@ -19,6 +19,7 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 
 
+zstyle ':zim:prompt-pwd:fish-style' dir-length 0
 
 
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim

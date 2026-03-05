@@ -1,0 +1,52 @@
+# ~/.config/mako/config
+
+# --- Layout ---
+anchor=top-right
+margin=16
+padding=14,18
+width=360
+height=120
+max-visible=5
+sort=-time
+
+# --- Font ---
+font=Sans 11
+
+# --- Base style ---
+background-color=#1e1e2eee
+text-color=#cdd6f4
+border-color=#cba6f7aa
+border-size=2
+border-radius=14
+
+# --- Icon ---
+icon-path=/usr/share/icons/Papirus-Dark
+max-icon-size=48
+
+# --- Content format ---
+format=<b>%s</b>\n%b
+
+# --- Timing ---
+default-timeout=5000
+ignore-timeout=0
+
+# --- Low urgency (dim, short) ---
+[urgency=low]
+background-color=#1e1e2ecc
+text-color=#a6adc8
+border-color=#585b7066
+default-timeout=3000
+
+# --- Normal urgency (default) ---
+[urgency=normal]
+background-color=#1e1e2eee
+text-color=#cdd6f4
+border-color=#cba6f7aa
+
+# --- Critical urgency (warm red accent, persistent) ---
+[urgency=critical]
+background-color=#1e1e2eff
+text-color=#f38ba8
+border-color=#f38ba8cc
+border-size=2
+default-timeout=0

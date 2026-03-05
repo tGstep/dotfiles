@@ -7,16 +7,25 @@
 !xsettingsd/
 !uwsm/
 !zsh/
-
+!mako/
 
 !hypr/hyprland.conf
 !hypr/hyprlock.conf
 !hypr/hypridle.conf
+!hypr/hyprpaper.conf
+!hypr/animations.conf
+!hypr/autostart.conf
+!hypr/appearance.conf
+!hypr/keybinds.conf
+!hypr/windowrules.conf
+!hypr/input.conf
+!hypr/monitors.conf
 !xdg-desktop-portal/hyprland-portals.conf
 !xsettingsd/xsettingsd.conf
 !uwsm/env
 !uwsm/env-hyprland
 !zsh/.zshrc
 !zsh/.zimrc
+!mako/config
 !flatpak-overrides.txt
 !.gitignore
