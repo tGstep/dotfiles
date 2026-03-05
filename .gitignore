@@ -5,12 +5,14 @@
 !hypr/
 !xdg-desktop-portal/
 !xsettingsd/
-
+!uwsm/
 
 !hypr/hyprland.conf
 !hypr/hyprlock.conf
 !hypr/hypridle.conf
 !xdg-desktop-portal/hyprland-portals.conf
 !xsettingsd/xsettingsd.conf
+!uwsm/env
+!uwsm/env-hyprland
 !flatpak-overrides.txt
 !.gitignore
