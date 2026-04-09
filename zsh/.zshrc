@@ -43,3 +43,6 @@ source ${ZIM_HOME}/init.zsh
 
 alias cat="bat"
 alias ranger="yazi"
+alias vim="nvim"
+alias c="clear"
+
