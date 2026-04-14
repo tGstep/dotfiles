@@ -45,4 +45,4 @@ alias cat="bat"
 alias ranger="yazi"
 alias vim="nvim"
 alias c="clear"
-
+alias ls="eza -1 -lh --icons --git"
